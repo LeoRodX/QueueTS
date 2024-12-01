@@ -1,0 +1,216 @@
+#backdrop{
+	opacity: .6;
+	background: white;
+	/*height: 780px;*/
+	width: 440px;
+	position: absolute;
+	border: 2px solid blue;
+	border-radius: 15px;
+	margin: 25px calc(100% - 485px);
+}
+
+#curtain{
+	height: 250px;
+	width: 400px;
+	position: absolute;
+	z-index: 2;
+	margin: 45px calc(100% - 465px);
+}
+
+.screen-heading{
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.screen-queue{
+	width: 200px;
+	height: 300px;
+	border: 2px solid orange;
+	background-color: white;
+	border-radius: 15px;
+	opacity: .3;
+}
+
+.in-center-screen{
+	width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    overflow: auto;
+	background-color: #ffffff;
+}
+
+.spacing{
+     width: 20px;
+}
+
+.ticket {
+	width: 300px;
+	height: 300px;
+	display: block;
+	border: 1px solid gray;
+}
+
+.ticket-footer{
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+}
+
+.ticket-number{
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 70px;
+}
+
+.registration-text{
+	width: 100vw;
+	height: 180px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: xxx-large;
+	font-family: "Segoe UI", system-ui, Roboto, "Helvetica Neue", Arial,
+	sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+	font-weight: 400;
+}
+
+.registration-div-button {
+	width: 100vw;
+	height: 180px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.operator-container {
+	width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;/*центр горизонтали*/
+    align-items: center;/*центр верртикали*/
+	background-color: #F8F8F8;
+}
+
+.in-center-page {
+	width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    overflow: auto;
+	background-color: #ffffff;
+}
+
+.shape {
+	width: 330px;
+	height: 330px;
+	border: 1px solid #E8E8E8;
+	background-color: #ffffff;
+	border-radius: 4px;
+}
+
+.heading {
+	width: 100%;
+	height: 60px;
+	background-color: #417690;
+	font-family: "Segoe UI", system-ui, Roboto, "Helvetica Neue", Arial,
+	sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+	font-weight: 100;
+	font-size: x-large;
+	color: #F5DD5D;
+	display: flex;/* вертикальное выравнивание */
+	flex-direction: column;
+    justify-content: center;  /* горизонтальное выравнивание */
+	text-align: center;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+}
+
+.row {
+	width: 100%;
+	height: 120px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.operator-label{
+	width: 100%;
+	height: 50%;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	align-items: end;
+	font-size: large;
+	font-family: "Segoe UI", system-ui, Roboto, "Helvetica Neue", Arial,
+	sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.operator-div-button{
+	height: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: end;
+}
+
+.operator-end{
+	height: 8px;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+}
+
+.operator-button {
+	display: flex;
+	height: 30px;
+	background-color: #417690;
+	border-color: #417690;
+	border-radius: 4px;
+	color: #ffffff;
+	font-size: medium;
+	font-family: "Segoe UI", system-ui, Roboto, "Helvetica Neue", Arial,
+	sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+	font-weight: 100;
+	Align-items: start;
+}
+
+.operator-button:hover {
+      background-color: #205067;
+      transition: 0.7s;
+}
+
+.registration-button {
+	box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.6);
+	height: 180px;
+	width: 600px;
+	display: flex;
+	background-color: #417690;
+	border-color: #417690;
+	border-radius: 60px;
+	color: #ffffff;
+	font-size: xxx-large;
+	font-family: "Segoe UI", system-ui, Roboto, "Helvetica Neue", Arial,
+	sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+	font-weight: 500;
+	justify-content: center;
+	align-items: center;
+}
+
+.-operator-button:hover {
+      background-color: #205067;
+      transition: 0.7s;
+}

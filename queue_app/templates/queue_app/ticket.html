@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <link type="text/css" href="{% static 'queue_app/css/styles.css' %}" rel="stylesheet" />
+    <meta charset="UTF-8">
+    <title>Талон</title>
+    <script>
+       setTimeout(function(){
+            window.location.href = '/queue_app/registration/';
+         }, 5000);
+   </script>
+</head>
+<body>
+<div class="in-center-page">
+    <div class="ticket">
+        <div class="ticket-footer">Талон посетителя</div>
+        <div class="ticket-number"><p><h1>{{posts.ticket}}</h1></p></div>
+        <div class="ticket-footer">
+            <div>{{posts.data_reg}}</div>
+            <div class="spacing"></div>
+            <div>{{posts.time_reg}}</div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
